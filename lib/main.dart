@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'LOL Nick Search',
+      title: 'League Details',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
@@ -58,11 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
-              width: 150,
+              width: 250,
               child: TextField(
                 controller: _nickController,
                 decoration: InputDecoration(
-                  labelText: 'Nick',
+                  labelText: 'Summoners Name',
                   border: OutlineInputBorder(),
                   counterText: '',
                 ),
